@@ -106,3 +106,5 @@ class Signal:
         if self.state == "green":
             if self.v < self.T:
                 self.state = "red"
+
+
